@@ -1,0 +1,18 @@
+{
+  "name": "2048",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:shtanton/2048Clone.git",
+  "author": "shtanton <charlie@shtanton.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "bsb-native": "^4.0.7000"
+  },
+  "dependencies": {
+    "reprocessing": "^0.1.1"
+  },
+	"scripts": {
+		"build": "bsb -make-world",
+		"dev": "bsb -make-world && ./lib/bs/native/main.native"
+	}
+}
