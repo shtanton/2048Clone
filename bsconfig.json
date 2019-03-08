@@ -1,0 +1,23 @@
+{
+  "name": "2048",
+  "version": "0.1.0",
+	"entries": [
+		{
+			"backend": "native",
+			"main-module": "Main"
+		}
+	],
+  "sources": "src",
+  "package-specs": {
+    "module": "commonjs",
+    "in-source": true
+  },
+  "suffix": ".bs.js",
+  "bs-dependencies": [
+		"reprocessing"
+  ],
+  "warnings": {
+    "error" : "+101"
+  },
+  "refmt": 3
+}
